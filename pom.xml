@@ -28,6 +28,13 @@
 			<version>7.16.1</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency> 
+            <groupId>info.cukes</groupId> 
+            <artifactId>cucumber-junit</artifactId> 
+            <version>1.0.2</version> 
+            <scope>test</scope> 
+        </dependency>
 
 
 		<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
@@ -51,6 +58,8 @@
 			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
+		
+
 
 		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-jvm -->
 		<dependency>

@@ -30,3 +30,6 @@ Feature: Amazon login functionality with parameter
     Examples: 
       | url       						| productName          | 
       | "https://amazon.in"   | "Red Mi Mobile"      |  
+      | "https://amazon.in"   | "Peanut Butter"      |
+      | "https://amazon.in"   | "MotoRola Mobile"    |
+      | "https://amazon.in"   | "HP Laptops"         |

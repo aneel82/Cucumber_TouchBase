@@ -43,7 +43,8 @@ public class LoginWithExample {
 	public void user_can_able_to_verify_the_result() {
 		WebElement result = driver.findElement(By.xpath("//span[contains(text(),'results for')]"));
 		boolean isResultDisplay = result.isDisplayed();
-		System.out.println("the result is displayed."+isResultDisplay);
+		System.out.println("the result is displayed :"+isResultDisplay);
+		driver.quit();
 	
 	}
 

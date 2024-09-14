@@ -11,9 +11,12 @@ import io.cucumber.junit.CucumberOptions;
         glue = {"stepdefination"},
         dryRun = false,
         monochrome = true,
-        tags="@RegressionTest or @SmokeTest or @tag3",
+        tags="@RegressionTest or ~@SmokeTest",
         plugin = "json:target/cucumber-reports/CucumberTestReport.json"
 		)
+
+// if want to ignore any tag or exclude any particular tag user ~ special symbol before tag
+//"@RegressionTest or ~@SmokeTest",
 
 public class TestRunner {
 

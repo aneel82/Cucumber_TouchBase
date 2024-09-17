@@ -7,11 +7,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/Features/cucumbertagging.feature",
+		features = "src/test/resources/Features/cucumberhook.feature",
         glue = {"stepdefination"},
         dryRun = false,
         monochrome = true,
-        tags="@RegressionTest or ~@SmokeTest",
+        //tags="@RegressionTest or ~@SmokeTest",
         plugin = "json:target/cucumber-reports/CucumberTestReport.json"
 		)
 
